@@ -8,10 +8,10 @@ import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.handler.StaticHandler;
 
 import static io.vertx.core.http.HttpHeaders.CONTENT_TYPE;
-
+    
 public class HttpApplication extends AbstractVerticle {
 
-  static final String template = "Hello, %s!";
+  static final String template = "Hello from Che, %s!";
 
   @Override
   public void start(Future<Void> future) {
